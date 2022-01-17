@@ -1,6 +1,5 @@
 // Define variables
 var generateBtn = document.querySelector("#generate");
-var copyBtn = document.querySelector("#copy");
 var characters = [];
 var password = [];
 var passwordLength = "";
@@ -9,7 +8,6 @@ var passwordLength = "";
 function generatePassword() {
 
     // Add popups to define password parameters on click
-    document.getElementById("generate").addEventListener("click", function() {
 
     //Determine password length
     passwordLength = prompt("Please indicate a password length between 8 and 128.");
@@ -52,9 +50,7 @@ function generatePassword() {
         return alert('Please select at least one password criteria.');
     }
 
-});
-
-// Random character generator
+//Random character generator
     for (var i = 0; i < passwordLength; i++) {
         password += characters[Math.floor(Math.random () * characters.length)];
     } return password;
@@ -71,12 +67,3 @@ function writePassword() {
     passwordText.value = password;
   
   }
-
-    // Add event listener to copy button
-    //copyBtn.addEventListener("click", copyPassword);
-    // Copy password from the #password input
-  //function copyPassword() {
-    //var copyText = document.getElementById("#password");
-    //copyText.select();
-    //document.execCommand("copy");  
-//} <button id="copy" class="btn">Copy Password</button>
