@@ -1,6 +1,6 @@
 # Password Generator
 ## Description
-For this project, I created a password generator application. This application demonstrates my skills with semantic html, flexbox, media queries, CSS variables, and responsive web design. 
+For this project, I created a password generator application. This application demonstrates my skills with javascript variables, functions, conditional statements, and arrays. 
 
 ## Table of Contents
 - [Usage](#usage)
@@ -8,12 +8,11 @@ For this project, I created a password generator application. This application d
 - [Acceptance Criteria](#acceptance-criteria)
 - [Credits](#credits)
 - [License](#license)
-- [Badges](#badges)
 
 ## Usage
 Visit my [Password Generator here](https://quadrilateral0.github.io/Password-Generator/). The following image shows the web application's appearance and functionality:
 
-![Screenshot of Completed Website](assets/images/screenshot-password-generator.png)
+![Screenshot of Completed Website](assets/images/password-generator-screenshot.png)
 
 ## User Story
 
@@ -43,16 +42,12 @@ THEN the password is either displayed in an alert or written to the page
 ```
 ## Credits
 A thanks to my resources:
-- [Functional Accessibility Evaluator 2.2](https://fae.disability.illinois.edu/anonymous/?Anonymous%20Report=/)
 - [GoFullPage - Full Page Screen Capture Chrome Extension](https://chrome.google.com/webstore/detail/gofullpage-full-page-scre/fdpohaocaechififmbbbbbknoalclacl/related)
 - [Visual Studio Code](https://code.visualstudio.com/download)
 
 And thanks to these tutorials:
-- [MDN Web Docs](https://developer.mozilla.org/)
 - [W3 Schools](https://www.w3schools.com/)
+- [MDN Web Docs](https://developer.mozilla.org/)
 
 ## License
 ![MIT License](https://img.shields.io/badge/license-MIT-green)
-
-## Badges
-![W3C Validated](https://img.shields.io/badge/w3c-validated-green)

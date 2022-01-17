@@ -45,16 +45,16 @@ function generatePassword() {
         return alert('Please select at least one password criteria.');
     }
 
-//Random character generator
+    //Random character generator
     for (var i = 0; i < passwordLength; i++) {
         password += characters[Math.floor(Math.random () * characters.length)];
     } return password;
 }
 
-  // Add event listener to generate button
-  generateBtn.addEventListener("click", writePassword);
+//Add event listener to generate button
+generateBtn.addEventListener("click", writePassword);
 
-// Write password to the #password input
+//Write password to the #password input
 function writePassword() {
     password = generatePassword();
     var passwordText = document.querySelector("#password");
