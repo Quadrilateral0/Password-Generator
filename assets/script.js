@@ -22,8 +22,8 @@ function generatePassword() {
         characters.push(0,1,2,3,4,5,6,7,8,9);
         } else;
     
-     //Determine inclusion of lowercase letters in password
-    var charLower = confirm("Would you like to include uppercase letters in your password?\nClick Cancel for no.");
+    //Determine inclusion of lowercase letters in password
+    var charLower = confirm("Would you like to include lowercase letters in your password?\nClick Cancel for no.");
     if (charLower == true) {
         characters.push("a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z");
     } else;
